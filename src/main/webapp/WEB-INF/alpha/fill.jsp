@@ -9,7 +9,7 @@
 <style type="text/css">
 #surface {
 	border-collapse: collapse;
-	font-family: monospace;
+	font-family: Georgia;
 	font-size: 2em;
  	border-left: 20px solid red;
 	background: url('/media/alpha.png');

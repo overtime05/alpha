@@ -16,20 +16,21 @@
 	align-items: flex-start;
 	
 	position: fixed;
-	width: 95%;
-	top: 10px;
+	width: 100%;
+	top: 50px;
 	left: 10px;
 }
 
 .menu-item {
 /* 	min-width: 150px; */
-	width: 150px;
-	flex-shrink: 0;
-	background: orange;
+	width: 180px;
+	flex-shrink: 10;
+	background: lavenderblush;
+	font-family: Papyrus;
 }
 
 .menu-item:hover > .menu-title {
-	text-shadow: 10px 10px 5px red;
+	text-shadow: 10px 10px 5px steelblue;
 }
 
 .menu-item:hover > .sub-menu {
@@ -68,7 +69,7 @@
 }
 
 .sub-menu-item:hover > a {
-	background: red;
+	background: chocolate;
 }
 
 iframe {

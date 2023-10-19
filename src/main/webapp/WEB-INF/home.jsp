@@ -17,25 +17,28 @@
 	
 	position: fixed;
 	width: 100%;
-	top: 50px;
+	top: 10px;
 	left: 10px;
 }
 
 .menu-item {
 /* 	min-width: 150px; */
-	width: 180px;
+	width: 200px;
 	flex-shrink: 10;
 	background: lavenderblush;
+	height: 90px;
 	font-family: Papyrus;
 }
 
 .menu-item:hover > .menu-title {
 	text-shadow: 10px 10px 5px steelblue;
+	background: lavenderblush;
 }
 
 .menu-item:hover > .sub-menu {
 	max-height: 500px;
 	
+	background: lavenderblush;
 	transition: max-height 2s;
 }
 
@@ -160,7 +163,7 @@ $(document).ready(function() {
 </ul>
 </nav>
 
-<iframe src="/alpha/fill" 
+<iframe src="/alpha/main" 
 		 name="content" 
 		 width="100%"
 		 scrolling="no"

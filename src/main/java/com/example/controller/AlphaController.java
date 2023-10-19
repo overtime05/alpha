@@ -77,6 +77,12 @@ public class AlphaController {
 	}
 	
 	
+	
+	@GetMapping("/main")
+	Alpha main() {
+		return new Alpha();
+	}
+	
 	@GetMapping("/data")
 	@ResponseBody	// REST API
 	Alpha data() {
